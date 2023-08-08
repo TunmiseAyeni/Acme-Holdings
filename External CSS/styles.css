@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: SenR;
+    src: url('/Fonts/Sen/static/Sen-Regular.ttf');
+}
+body{
+    font-family: SenR;
+}
+.head{
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.announce{
+    background-color: #eb5757;
+    width: 150px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    text-align:center ;
+    color: white;
+    float: left;
+}
+.para{
+    color: white;
+    font-weight: 400;       
+    text-align: center;
+    padding: 10px;
+}
+.section1{
+    background-color: #eb5757;
+    width: 100%;
+   height: 72px;
+   padding: 20px 0;
+   position: fixed;
+    top: 75px;
+}
+ul{
+    list-style-type: none;
+    float: right;
+}
+.nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 4px 10px;
+}
+.acme{
+    float: left;
+    padding-left: 20px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding: 4px 10px;
+}
+.nav ul li a:hover{
+    background-color: black;
+    border-radius: 5px;
+    border-width:10px ;
+}
+.hold{
+    margin-right: 25px;
+}
+
+.cart{
+    width: 45px;
+    height: 30px;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+   float: right;
+}
+.picture{
+    margin-top: 90px;
+    background-image: url(/Images/pic2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+.text > h2{
+    padding-top: 250px ;
+    color: whitesmoke;
+    font-weight: 700;
+    text-align: left;
+    font-size: 62px;
+}
+.text > p{
+    color: whitesmoke;
+    font-weight: 400;
+    text-align: left;
+    font-size: 18px;
+    height: 1.5px;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+.text{
+  padding-left: 20px;
+}
+.btn{
+    width: 150px;
+    height: 35px;
+    padding: 5px 25px;
+    margin-top: 60px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+.support{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.supporters{
+    width: 100%;
+    padding: 65px 20px;
+    /* margin-bottom: 55px; */
+}
+.outdoor{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    float: left;
+    width: 60%;
+}
+.covid{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 100px;
+}
+.square{
+    background-image: url(/Images/square.svg);
+    width: 312px;
+    height: 350px;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 0 60px;
+    float: left;
+}
+.num{
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 40px;
+}
+.shop{
+    color: whitesmoke;
+    padding-top: 50px;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 170px;
+}
+.square > h2 > p{
+    font-size: 16px;
+    padding-top: 50px;
+}
+.pa{
+    padding-top: 50px;
+}
+.second{
+     margin-top: 450px;
+    background-image: url(/Images/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+}
+.second > h2{
+    text-align: right;
+    color: whitesmoke;
+    font-size: 45px;
+    padding-top: 100px;
+    padding-right: 25px;
+}
+.second > p{
+    text-align: right;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-right: 25px;
+}
+.second > button{
+    width: 200px;
+    height: 35px;
+    padding: 5px 25px;
+    margin-top: 60px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid white;
+    font-weight: 700;
+    cursor: pointer;
+    display: block;
+    margin-left: 80%;
+}
+.second > button:hover{
+    background-color: #eb5757;
+    color: white;
+    border: 1px solid white;
+}
+.third{
+    margin-top: 50px;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+.third > p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.third > h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.sales1{
+    background-image: url(/Images/coffee.jpg);
+    width: 312px;
+    height: 350px;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 0 60px;
+    float: left;
+    padding-top: 350px;
+}
+.sales1 >p{
+    font-size: 20px;
+    text-align: center;
+}
+.price{
+    font-size: 14px !important;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+ .btn2{
+    padding: 5px 25px;
+    font-size: 16px;
+    background-color: #eb5757;
+    color: white;
+    width: 106.5px;
+    height: 35px;
+    display: block;
+    border-radius: 5px;
+    margin-left: 110px;
+    border: none;
+}
+ .btn2:hover{
+   background-color: black;
+   color: white;
+}
+.sales2{
+    background-image: url(/Images/cup1.jpg);
+    width: 312px;
+    height: 350px;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 0 60px;
+    float: left;
+    padding-top: 350px;
+}
+.sales2 >p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.sales2 > button:hover{
+    background-color: black;
+    color: white;
+}
+.sales3{
+    background-image: url(/Images/bag1.jpg);
+    width: 312px;
+    height: 350px;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 0 60px;
+    float: left;
+    padding-top: 350px;
+}
+.sales3 > p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.sales3 > button:hover{
+    background-color: black;
+    color: white;
+}
+.line-through{
+    text-decoration: line-through;
+    color: #eb5757;
+    padding-right: 50px;
+}
+.float{
+    float: left;
+    margin-left: 85px;
+}
+.button{
+    width: 180px;
+    height: 35px;
+    padding: 5px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 200px 43%;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.button:hover{
+    background-color: #eb5757;
+    color: white;
+}
+.girl{
+    width: 312px;
+    height: 400px;
+    border-radius: 10px;
+    background-size: cover;
+    margin-left: 30px;
+    float: left;
+    margin-top: 60px;
+}
+.black{
+    background-image: url(/Images/square.svg);
+    width: 75%;
+    height: 590px;
+    padding: 45px;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-bottom: 60px;
+}
+.local{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+.future{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+.bold{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: whitesmoke;
+}
+.align{
+    padding-left: 50px;
+}
+.footer{
+    height: 150px;
+    background-color: #222222;
+}
+
+
+.img{
+    margin-top:40px;
+    padding-left: 20px;
+    float: left;
+}
+.images{
+    width: 50px;
+    height: 35px; 
+     float: right;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-right: 20px;
+} 
+.end{
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 120px;
+}
