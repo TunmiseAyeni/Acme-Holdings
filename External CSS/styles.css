@@ -245,7 +245,7 @@ ul{
     height: 350px;
     border-radius: 10px;
     background-size: cover;
-    margin: 0 50px;
+    margin: 0 4.5%;
     float: left;
     padding-top: 350px;
 }
@@ -280,7 +280,7 @@ ul{
     height: 350px;
     border-radius: 10px;
     background-size: cover;
-    margin: 0 50px;
+    margin: 0 4.5%;
     float: left;
     padding-top: 350px;
 }
@@ -299,7 +299,7 @@ ul{
     height: 350px;
     border-radius: 10px;
     background-size: cover;
-    margin: 0 auto;
+    margin: 0 4.5%;
     float: left;
     padding-top: 350px;
 }
