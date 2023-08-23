@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: SenR;
-    src: url('/Fonts/Sen/static/Sen-Regular.ttf');
+    src: url('./Fonts/Sen/static/Sen-Regular.ttf');
 }
 body{
     font-family: SenR;
@@ -85,7 +85,7 @@ ul{
 }
 .picture{
     margin-top: 90px;
-    background-image: url(/Images/pic2.jpg);
+    background-image: url('./Images/pic2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -152,12 +152,12 @@ ul{
     padding-bottom: 100px;
 }
 .square{
-    background-image: url(/Images/square.svg);
+    background-image: url('./Images/square.svg');
     width: 312px;
     height: 350px;
     border-radius: 10px;
     background-size: cover;
-    margin: 0 50px;
+    margin: 0 110px;
     float: left;
 }
 .num{
@@ -182,7 +182,7 @@ ul{
 }
 .second{
      margin-top: 450px;
-    background-image: url(/Images/pic1.jpg);
+    background-image: url('./Images/pic1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -240,12 +240,12 @@ ul{
     margin-bottom: 25px;
 }
 .sales1{
-    background-image: url(/Images/coffee.jpg);
+    background-image: url('./Images/coffee.jpg');
     width: 312px;
     height: 350px;
     border-radius: 10px;
     background-size: cover;
-    margin: 0 60px;
+    margin: 0 100px;
     float: left;
     padding-top: 350px;
 }
@@ -275,12 +275,12 @@ ul{
    color: white;
 }
 .sales2{
-    background-image: url(/Images/cup1.jpg);
+    background-image: url('./Images/cup1.jpg');
     width: 312px;
     height: 350px;
     border-radius: 10px;
     background-size: cover;
-    margin: 0 60px;
+    margin: 0 100px;
     float: left;
     padding-top: 350px;
 }
@@ -294,12 +294,12 @@ ul{
     color: white;
 }
 .sales3{
-    background-image: url(/Images/bag1.jpg);
+    background-image: url('./Images/bag1.jpg');
     width: 312px;
     height: 350px;
     border-radius: 10px;
     background-size: cover;
-    margin: 0 60px;
+    margin: 0 100px;
     float: left;
     padding-top: 350px;
 }
@@ -347,7 +347,7 @@ ul{
     margin-top: 60px;
 }
 .black{
-    background-image: url(/Images/square.svg);
+    background-image: url('./Images/square.svg');
     width: 75%;
     height: 590px;
     padding: 45px;
